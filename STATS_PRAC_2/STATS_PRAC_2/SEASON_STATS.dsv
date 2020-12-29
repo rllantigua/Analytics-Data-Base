@@ -1,0 +1,421 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f54e53b9-d2bc-4f6f-b082-c466ddbd35aa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SEASON_STATS</ID>
+  <Name>SEASON_STATS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DB_rllantigua</DataSourceID>
+  <Schema>
+    <xs:schema id="SEASON_STATS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="SEASON_STATS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="433083a5-f958-44f6-ab8a-c2b35d31546e">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_FACT_SEASONS_STATS" msprop:design-time-name="be2de9ec-b506-402a-ab4f-35c43d7c68e1" msprop:DbTableName="FACT_SEASONS_STATS" msprop:FriendlyName="FACT_SEASONS_STATS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_season" msprop:design-time-name="5612d0f3-b6cf-4e16-901c-6a60199d6a1e" msprop:DbColumnName="id_season" msprop:FriendlyName="id_season" type="xs:decimal" />
+                  <xs:element name="id_player" msprop:design-time-name="de2dd742-2905-4608-af57-3f188bf1ef9f" msprop:DbColumnName="id_player" msprop:FriendlyName="id_player" type="xs:decimal" />
+                  <xs:element name="id_team" msprop:design-time-name="1593db54-08eb-421f-b250-d173e457c1ba" msprop:DbColumnName="id_team" msprop:FriendlyName="id_team" type="xs:decimal" />
+                  <xs:element name="id_position" msprop:design-time-name="9c2c03c5-04dd-4cd0-bd28-148a8af44e70" msprop:DbColumnName="id_position" msprop:FriendlyName="id_position" type="xs:decimal" />
+                  <xs:element name="league" msprop:design-time-name="75573ec3-a83f-45bc-8302-28ab03dd381f" msprop:DbColumnName="league" msprop:FriendlyName="league">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GP" msprop:design-time-name="c1fcfeb7-4ac3-4019-b8a0-dcd152967693" msprop:DbColumnName="GP" msprop:FriendlyName="GP" type="xs:decimal" />
+                  <xs:element name="PTS" msprop:design-time-name="e7d1f137-5243-4231-9b3a-38f1ab514937" msprop:DbColumnName="PTS" msprop:FriendlyName="PTS" type="xs:decimal" />
+                  <xs:element name="MIN" msprop:design-time-name="2c3c1524-a857-4363-a4a1-92ad3b68670b" msprop:DbColumnName="MIN" msprop:FriendlyName="MIN" type="xs:decimal" />
+                  <xs:element name="FGM" msprop:design-time-name="a6caf5ef-2f96-4b2e-8aa8-1d1ccb401d02" msprop:DbColumnName="FGM" msprop:FriendlyName="FGM" type="xs:decimal" />
+                  <xs:element name="FGA" msprop:design-time-name="99ec48c0-3f5f-4240-9e52-fa29adfaaa75" msprop:DbColumnName="FGA" msprop:FriendlyName="FGA" type="xs:decimal" />
+                  <xs:element name="FG_x0025_" msprop:design-time-name="f75edd85-3824-412b-985e-15f215ee97b2" msprop:DbColumnName="FG%" msprop:FriendlyName="FG%" type="xs:decimal" />
+                  <xs:element name="_3PM" msprop:design-time-name="cb301308-4f90-4509-82a2-28cc65c51658" msprop:DbColumnName="_3PM" msprop:FriendlyName="_3PM" type="xs:decimal" />
+                  <xs:element name="_3PA" msprop:design-time-name="66c6249c-6560-447b-8023-775844734b74" msprop:DbColumnName="_3PA" msprop:FriendlyName="_3PA" type="xs:decimal" />
+                  <xs:element name="_3P_x0025_" msprop:design-time-name="af9b80eb-dec9-424c-8d69-cf738acc107d" msprop:DbColumnName="_3P%" msprop:FriendlyName="_3P%" type="xs:decimal" />
+                  <xs:element name="_2PM" msprop:design-time-name="b8688d2f-60c7-49c3-9d4b-84519ee7a9ad" msprop:DbColumnName="_2PM" msprop:FriendlyName="_2PM" type="xs:decimal" />
+                  <xs:element name="_2PA" msprop:design-time-name="36e8f781-2070-4c5e-99ff-8169e3e801ad" msprop:DbColumnName="_2PA" msprop:FriendlyName="_2PA" type="xs:decimal" />
+                  <xs:element name="_2P_x0025_" msprop:design-time-name="a8e8e61c-b065-4653-88c6-ecda59d6ef09" msprop:DbColumnName="_2P%" msprop:FriendlyName="_2P%" type="xs:decimal" />
+                  <xs:element name="FTM" msprop:design-time-name="d3bdc433-7953-4847-9547-d79824aac1f4" msprop:DbColumnName="FTM" msprop:FriendlyName="FTM" type="xs:decimal" />
+                  <xs:element name="FTA" msprop:design-time-name="8fee39f0-80cd-477f-9896-eacb80175483" msprop:DbColumnName="FTA" msprop:FriendlyName="FTA" type="xs:decimal" />
+                  <xs:element name="FT_x0025_" msprop:design-time-name="6b103c36-87a0-4a84-9169-324da6b1cf23" msprop:DbColumnName="FT%" msprop:FriendlyName="FT%" type="xs:decimal" />
+                  <xs:element name="eFG_x0025_" msprop:design-time-name="ef9e6c99-2abe-4d61-a2dd-7a5337bd4e30" msprop:DbColumnName="eFG%" msprop:FriendlyName="eFG%" type="xs:decimal" />
+                  <xs:element name="OREB" msprop:design-time-name="b174828c-1daf-4289-8ec3-6ccdd8e997bf" msprop:DbColumnName="OREB" msprop:FriendlyName="OREB" type="xs:decimal" />
+                  <xs:element name="DREB" msprop:design-time-name="6d5d434f-2167-4358-a796-fdedddcba6d9" msprop:DbColumnName="DREB" msprop:FriendlyName="DREB" type="xs:decimal" />
+                  <xs:element name="REB" msprop:design-time-name="1097e8a0-c6a1-49b6-9466-1d6b9fc5267b" msprop:DbColumnName="REB" msprop:FriendlyName="REB" type="xs:decimal" />
+                  <xs:element name="AST" msprop:design-time-name="dabb4ef8-0006-450f-9566-b3be231eae75" msprop:DbColumnName="AST" msprop:FriendlyName="AST" type="xs:decimal" />
+                  <xs:element name="TOV" msprop:design-time-name="ac9c6eea-cd6a-4948-ab0c-1eb633bf8417" msprop:DbColumnName="TOV" msprop:FriendlyName="TOV" type="xs:decimal" />
+                  <xs:element name="STL" msprop:design-time-name="37277e6d-8f23-4d91-bb5f-98f8d35b1c19" msprop:DbColumnName="STL" msprop:FriendlyName="STL" type="xs:decimal" />
+                  <xs:element name="BLK" msprop:design-time-name="15e709f0-a381-462e-bb40-7d52455fcc35" msprop:DbColumnName="BLK" msprop:FriendlyName="BLK" type="xs:decimal" />
+                  <xs:element name="PF" msprop:design-time-name="6b71e3ec-0c45-48d0-ad50-1d03f459934d" msprop:DbColumnName="PF" msprop:FriendlyName="PF" type="xs:decimal" />
+                  <xs:element name="EFF" msprop:design-time-name="8a7180cf-ff94-433c-9e2f-6145a205dcac" msprop:DbColumnName="EFF" msprop:FriendlyName="EFF" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Equipos" msprop:design-time-name="07f43d1c-7ec2-47a9-8782-84b6baae36bb" msprop:DbTableName="DIM_Equipos" msprop:FriendlyName="DIM_Equipos" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_equipo" msprop:design-time-name="3b8c7841-3bd1-45ad-bcf9-5f2e77e7dba7" msprop:DbColumnName="pk_equipo" msprop:FriendlyName="pk_equipo" type="xs:decimal" />
+                  <xs:element name="id_estado_EEUU" msprop:design-time-name="bbb642b2-ec87-40cf-9a2b-8bdc5724fa5a" msprop:DbColumnName="id_estado_EEUU" msprop:FriendlyName="id_estado_EEUU" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="id_division" msprop:design-time-name="44f54b4d-a77a-4ab5-8061-9f7e76ad1f5d" msprop:DbColumnName="id_division" msprop:FriendlyName="id_division" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="liga" msprop:design-time-name="fd0881f2-2495-4ce1-96ad-cc391ca2a15e" msprop:DbColumnName="liga" msprop:FriendlyName="liga" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="codigo_equipo" msprop:design-time-name="0a3cd4f9-510a-464a-92fe-610e4ebfe24b" msprop:DbColumnName="codigo_equipo" msprop:FriendlyName="codigo_equipo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombre_equipo" msprop:design-time-name="e2b8a0d9-30af-4286-922c-13ea94bcc6ac" msprop:DbColumnName="nombre_equipo" msprop:FriendlyName="nombre_equipo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="555" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ciudad" msprop:design-time-name="5c70f692-2d42-4c98-867d-6342a802eec1" msprop:DbColumnName="ciudad" msprop:FriendlyName="ciudad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pabellon" msprop:design-time-name="fc975dd0-d79b-48b0-86c7-85f96e542ad8" msprop:DbColumnName="pabellon" msprop:FriendlyName="pabellon" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fundado" msprop:design-time-name="28cc539f-4817-45aa-a6fc-ece39963b61c" msprop:DbColumnName="fundado" msprop:FriendlyName="fundado" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="patrocinio" msprop:design-time-name="16e22265-dda9-430b-aeaa-959d2fe72e93" msprop:DbColumnName="patrocinio" msprop:FriendlyName="patrocinio" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Jugadores" msprop:design-time-name="8e02013e-6873-4789-962a-17bb3241469a" msprop:DbTableName="DIM_Jugadores" msprop:FriendlyName="DIM_Jugadores" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_jugador" msprop:design-time-name="35215b8f-c3d0-4d86-820e-7432c7524076" msprop:DbColumnName="pk_jugador" msprop:FriendlyName="pk_jugador" type="xs:decimal" />
+                  <xs:element name="liga" msprop:design-time-name="cae25672-87ed-41d9-8db4-1b9f01f2bfe6" msprop:DbColumnName="liga" msprop:FriendlyName="liga" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cod_jugador" msprop:design-time-name="cd00241d-a717-4f56-bbbd-c7856103e959" msprop:DbColumnName="cod_jugador" msprop:FriendlyName="cod_jugador" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombre" msprop:design-time-name="3dc78d3d-68bb-434b-8b9f-543c458af91b" msprop:DbColumnName="nombre" msprop:FriendlyName="nombre" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="posicion_juego" msprop:design-time-name="352aa28f-46e4-46e4-9f17-a5b3ce29ac0e" msprop:DbColumnName="posicion_juego" msprop:FriendlyName="posicion_juego" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sexo" msprop:design-time-name="f7e79ee9-a58a-413e-86c2-c5764621f851" msprop:DbColumnName="sexo" msprop:FriendlyName="sexo" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="activo" msprop:design-time-name="4f2bb432-f7f2-4170-b9d2-7b8093b82230" msprop:DbColumnName="activo" msprop:FriendlyName="activo" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="altura" msprop:design-time-name="7d958f26-719a-4c5e-87fb-992b912ca368" msprop:DbColumnName="altura" msprop:FriendlyName="altura" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="peso" msprop:design-time-name="e1d700d6-5d61-4b8b-9ec6-602c56217c14" msprop:DbColumnName="peso" msprop:FriendlyName="peso" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="shoots" msprop:design-time-name="ab58dc14-a8d1-4df6-803c-b44334164cfe" msprop:DbColumnName="shoots" msprop:FriendlyName="shoots" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Universidad" msprop:design-time-name="1094d21d-005a-48b0-8c89-ae1af233079d" msprop:DbColumnName="Universidad" msprop:FriendlyName="Universidad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fecha_nacimiento" msprop:design-time-name="bc5f9437-95f4-4f05-bd03-731ae7822ef4" msprop:DbColumnName="fecha_nacimiento" msprop:FriendlyName="fecha_nacimiento" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ciudad_nacimiento" msprop:design-time-name="eab4d28e-3ac7-4c0b-88d0-9b9a173ea2c9" msprop:DbColumnName="ciudad_nacimiento" msprop:FriendlyName="ciudad_nacimiento" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="career_AST" msprop:design-time-name="60eb68a1-fa5f-47b4-b349-020f725e5e02" msprop:DbColumnName="career_AST" msprop:FriendlyName="career_AST" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_FG_x0025_" msprop:design-time-name="5e7c163a-8439-4f81-bf54-60169ee5443b" msprop:DbColumnName="career_FG%" msprop:FriendlyName="career_FG%" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_FG3_x0025_" msprop:design-time-name="cc609856-4fc1-4f6b-b709-e2e793599ed2" msprop:DbColumnName="career_FG3%" msprop:FriendlyName="career_FG3%" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_FT_x0025_" msprop:design-time-name="f690ef77-1989-477b-8791-257e7522db45" msprop:DbColumnName="career_FT%" msprop:FriendlyName="career_FT%" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_G" msprop:design-time-name="39facc0e-4386-488d-9d2b-397a0fbead37" msprop:DbColumnName="career_G" msprop:FriendlyName="career_G" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_PER" msprop:design-time-name="3a5c7df3-dd1d-434b-81a1-03af46aece53" msprop:DbColumnName="career_PER" msprop:FriendlyName="career_PER" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_PTS" msprop:design-time-name="4d31c4b5-c973-4b3a-be02-9167636b8241" msprop:DbColumnName="career_PTS" msprop:FriendlyName="career_PTS" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_TRB" msprop:design-time-name="664c0217-a3eb-4bed-b608-26b0e59e6445" msprop:DbColumnName="career_TRB" msprop:FriendlyName="career_TRB" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_WS" msprop:design-time-name="a52b14c5-27bc-4044-9f4a-4a3750d7eea4" msprop:DbColumnName="career_WS" msprop:FriendlyName="career_WS" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="career_eFG_x0025_" msprop:design-time-name="e5d55e59-48fa-48db-afd2-cd89707d8620" msprop:DbColumnName="career_eFG%" msprop:FriendlyName="career_eFG%" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Tiempo" msprop:design-time-name="610ba7a7-c126-4828-9c9e-b378fa516d4c" msprop:DbTableName="DIM_Tiempo" msprop:FriendlyName="DIM_Tiempo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_date" msprop:design-time-name="a509be7f-54c6-4d4d-87fc-e96656ce9aec" msprop:DbColumnName="pk_date" msprop:FriendlyName="pk_date" type="xs:decimal" />
+                  <xs:element name="date_year" msprop:design-time-name="4ee25678-4625-4fd1-9862-cee316e99dc5" msprop:DbColumnName="date_year" msprop:FriendlyName="date_year" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="date_month" msprop:design-time-name="c0e61efb-82dc-40a6-937c-0c704b6935f0" msprop:DbColumnName="date_month" msprop:FriendlyName="date_month" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="date_day" msprop:design-time-name="742d6ce6-0da6-48b3-b465-9a30fd31e494" msprop:DbColumnName="date_day" msprop:FriendlyName="date_day" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="date_date" msprop:design-time-name="a27d8c10-fb22-4655-b6bf-7e7b24f5d2ab" msprop:DbColumnName="date_date" msprop:FriendlyName="date_date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="temporada" msprop:design-time-name="70b8722f-9c7f-49c3-bcfe-c4e40186b94b" msprop:DbColumnName="temporada" msprop:FriendlyName="temporada" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_PosicionesJuego" msprop:design-time-name="69424411-7c12-47a2-a62a-1a4349444c71" msprop:DbTableName="DIM_PosicionesJuego" msprop:FriendlyName="DIM_PosicionesJuego" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_posicion_juego" msprop:design-time-name="e068966e-d6cc-485a-8817-255b74ae35ae" msprop:DbColumnName="pk_posicion_juego" msprop:FriendlyName="pk_posicion_juego" type="xs:decimal" />
+                  <xs:element name="codigo_posicion" msprop:design-time-name="e3f4d0eb-f72f-4fb7-9b10-53beb589b793" msprop:DbColumnName="codigo_posicion" msprop:FriendlyName="codigo_posicion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="desc_posicion_EN" msprop:design-time-name="2b16445f-8b13-46e5-b155-cdaa11298226" msprop:DbColumnName="desc_posicion_EN" msprop:FriendlyName="desc_posicion_EN" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="desc_posicion_ES" msprop:design-time-name="ac41cc81-e08a-4fa8-b3b9-dd1ac8ee4b89" msprop:DbColumnName="desc_posicion_ES" msprop:FriendlyName="desc_posicion_ES" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="num_posicion" msprop:design-time-name="67e178cb-1072-440b-8563-3087328a97a9" msprop:DbColumnName="num_posicion" msprop:FriendlyName="num_posicion" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Estados_EEUU" msprop:design-time-name="c65db156-114f-49f1-8fea-580d2fc58082" msprop:DbTableName="DIM_Estados_EEUU" msprop:FriendlyName="DIM_Estados_EEUU" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_estado_EEUU" msprop:design-time-name="c2c64e07-adc9-4159-906f-50fcc8d68b50" msprop:DbColumnName="pk_estado_EEUU" msprop:FriendlyName="pk_estado_EEUU" type="xs:decimal" />
+                  <xs:element name="codigo" msprop:design-time-name="a1788d76-523c-4f7a-a344-d27306e5da26" msprop:DbColumnName="codigo" msprop:FriendlyName="codigo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombre" msprop:design-time-name="e1d4c74e-4e4b-45e5-8650-762aab64b42c" msprop:DbColumnName="nombre" msprop:FriendlyName="nombre" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Nombre_x0020_oficial" msprop:design-time-name="834f528a-4527-464c-a9d0-e81baf01d059" msprop:DbColumnName="Nombre oficial" msprop:FriendlyName="Nombre oficial" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="superficie" msprop:design-time-name="df13c003-8497-4e62-9a45-7d1d7b339b22" msprop:DbColumnName="superficie" msprop:FriendlyName="superficie" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="poblacion" msprop:design-time-name="0d385d35-426c-4c3c-953d-5563007d9ab9" msprop:DbColumnName="poblacion" msprop:FriendlyName="poblacion" type="xs:long" minOccurs="0" />
+                  <xs:element name="capital" msprop:design-time-name="783caadc-90a6-4ade-95a5-79204bea3f2c" msprop:DbColumnName="capital" msprop:FriendlyName="capital" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="densidadPoblacion" msprop:design-time-name="e2200c5f-5379-421a-8537-b29b27e43db9" msprop:DbColumnName="densidadPoblacion" msprop:FriendlyName="densidadPoblacion" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Divisiones" msprop:design-time-name="a6e66b2d-f2a5-4753-8f26-66640735b455" msprop:DbTableName="DIM_Divisiones" msprop:FriendlyName="DIM_Divisiones" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_division" msprop:design-time-name="b6096e7a-7b08-4d5c-8c2c-4febf42ba249" msprop:DbColumnName="pk_division" msprop:FriendlyName="pk_division" type="xs:decimal" />
+                  <xs:element name="codigo_division" msprop:design-time-name="c02b534b-29d0-4a49-9a1c-8686e22a4d48" msprop:DbColumnName="codigo_division" msprop:FriendlyName="codigo_division" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="División" msprop:design-time-name="8ca6441e-b2bf-464b-9019-eb4469c6359f" msprop:DbColumnName="División" msprop:FriendlyName="División" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_conferencia" msprop:design-time-name="bac411c5-f322-4432-9366-41068b6c9cee" msprop:DbColumnName="id_conferencia" msprop:FriendlyName="id_conferencia" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_Conferencias" msprop:design-time-name="27094ce5-8b62-4f34-b3da-fbe12f8ac981" msprop:DbTableName="DIM_Conferencias" msprop:FriendlyName="DIM_Conferencias" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="pk_conferencia" msprop:design-time-name="4ae2c963-48e9-4eeb-bd1c-e6d4c2346675" msprop:DbColumnName="pk_conferencia" msprop:FriendlyName="pk_conferencia" type="xs:decimal" />
+                  <xs:element name="codigo_conferencia" msprop:design-time-name="e9bba284-f3b9-4fe3-bf9c-2601e0e3ed93" msprop:DbColumnName="codigo_conferencia" msprop:FriendlyName="codigo_conferencia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Conferencia" msprop:design-time-name="af7f1dc4-1629-402e-8bc6-b58d63ff9e9b" msprop:DbColumnName="Conferencia" msprop:FriendlyName="Conferencia" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Equipos" />
+          <xs:field xpath="pk_equipo" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Jugadores_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Jugadores" />
+          <xs:field xpath="pk_jugador" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Tiempo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Tiempo" />
+          <xs:field xpath="pk_date" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_PosicionesJuego_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_PosicionesJuego" />
+          <xs:field xpath="pk_posicion_juego" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Estados_EEUU_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Estados_EEUU" />
+          <xs:field xpath="pk_estado_EEUU" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Divisiones_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Divisiones" />
+          <xs:field xpath="pk_division" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_Conferencias_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_Conferencias" />
+          <xs:field xpath="pk_conferencia" />
+        </xs:unique>
+        <xs:keyref name="FK_DIM_Divisiones_DIM_Conferencias" refer="dbo_DIM_Conferencias_Constraint1">
+          <xs:selector xpath=".//dbo_DIM_Divisiones" />
+          <xs:field xpath="id_conferencia" />
+        </xs:keyref>
+        <xs:keyref name="FK_DIM_Equipos_DIM_Estados_EEUU" refer="dbo_DIM_Estados_EEUU_Constraint1">
+          <xs:selector xpath=".//dbo_DIM_Equipos" />
+          <xs:field xpath="id_estado_EEUU" />
+        </xs:keyref>
+        <xs:keyref name="FK_DIM_Equipos_DIM_Divisiones" refer="dbo_DIM_Divisiones_Constraint1">
+          <xs:selector xpath=".//dbo_DIM_Equipos" />
+          <xs:field xpath="id_division" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_SEASONS_STATS_PLAYER" refer="dbo_DIM_Jugadores_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_SEASONS_STATS" />
+          <xs:field xpath="id_player" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_SEASONS_STATS_POSITION" refer="dbo_DIM_PosicionesJuego_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_SEASONS_STATS" />
+          <xs:field xpath="id_position" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_SEASONS_STATS_TEAM" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FACT_SEASONS_STATS" />
+          <xs:field xpath="id_team" />
+        </xs:keyref>
+        <xs:keyref name="FK_FACT_SEASONS_STATS_SEASON" refer="dbo_DIM_Tiempo_Constraint1">
+          <xs:selector xpath=".//dbo_FACT_SEASONS_STATS" />
+          <xs:field xpath="id_season" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <SEASON_STATS xmlns="" />
+  </Schema>
+</DataSourceView>

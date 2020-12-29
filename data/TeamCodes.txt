@@ -1,0 +1,43 @@
+League#Team#Code
+WNBA#Atlanta Dream#ADR
+NBA#Atlanta Hawks#ATL
+NBA#Boston Celtics#BOS
+NBA#Brooklyn Nets#BN
+NBA#Charlotte Hornets#CHA
+NBA#Chicago Bulls#CHI
+WNBA#Chicago Sky#CHS
+NBA#Cleveland Cavaliers#CLE
+WNBA#Connecticut Sun#CON
+NBA#Dallas Mavericks#DAL
+WNBA#Dallas Wings#DWN
+NBA#Denver Nuggets#DEN
+NBA#Detroit Pistons#DET
+NBA#Golden State Warriors#GS
+NBA#Houston Rockets#HOU
+WNBA#Indiana Fever#FVR
+NBA#Indiana Pacers#IND
+WNBA#Las Vegas Aces#LVA
+NBA#Los Angeles Clippers#LAC
+NBA#Los Angeles Lakers#LAL
+WNBA#Los Angeles Sparks#LAS
+NBA#Memphis Grizzlies#MEM
+NBA#Miami Heat#MIA
+NBA#Milwaukee Bucks#MIL
+WNBA#Minnesota Lynx#MLY
+NBA#Minnesota Timberwolves#MIN
+NBA#New Orleans Pelicans#NO
+NBA#New York Knicks#NY
+WNBA#New York Liberty#NEW
+NBA#Oklahoma City Thunder#OKC
+NBA#Orlando Magic#ORL
+NBA#Philadelphia 76ers#PHI
+WNBA#Phoenix Mercury#PHO
+NBA#Phoenix Suns#PHX
+NBA#Portland Trail Blazers#POR
+NBA#Sacramento Kings#SAC
+NBA#San Antonio Spurs#SA
+WNBA#Seattle Storm#SEA
+NBA#Toronto Raptors#TOR
+NBA#Utah Jazz#UTAH
+WNBA#Washington Mystics#WAS
+NBA#Washington Wizards#WSH

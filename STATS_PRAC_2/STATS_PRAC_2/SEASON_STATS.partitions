@@ -1,0 +1,165 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5e0b2a44-c324-4697-a3f9-a91d944acf3c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SEASON_STATS</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>FACT SEASONS STATS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="71c1d09f-7a90-421f-a01e-f39f0151920d">
+          <ID>FACT SEASONS STATS</ID>
+          <Name>FACT SEASONS STATS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="18495082-c9df-4456-bc22-3f1085982f1d">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_FACT_SEASONS_STATS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Equipos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3f29f097-ed3a-4910-ad3a-fd93f2335129">
+          <ID>DIM Equipos</ID>
+          <Name>DIM Equipos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="54643991-5840-4087-a6a6-e07aa167cdc3">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_Equipos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Jugadores</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6ebf5fc3-674d-4d10-abdf-91959a0e370e">
+          <ID>DIM Jugadores</ID>
+          <Name>DIM Jugadores</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ba756d8d-3297-4ae6-b7d5-62ed2efa0878">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_Jugadores</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Tiempo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="78f730a7-f78f-426e-9ba4-f3dd253b49e2">
+          <ID>DIM Tiempo</ID>
+          <Name>DIM Tiempo</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4208926b-2b10-4741-bd94-e268e1ed8358">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_Tiempo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Posiciones Juego</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6958bff3-9590-4588-b03f-e86dc5cb887d">
+          <ID>DIM Posiciones Juego</ID>
+          <Name>DIM Posiciones Juego</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="95e00843-0f43-4e34-8313-ecc07ab2e386">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_PosicionesJuego</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Estados EEUU</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="bedc6e31-4ae6-4866-a4e4-1bf74b2981b1">
+          <ID>DIM Estados EEUU</ID>
+          <Name>DIM Estados EEUU</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="41102146-48fc-4dd9-bcc9-1bcaf860fa03">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_Estados_EEUU</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Divisiones</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e2778208-9f67-41a1-8407-c12c4024993a">
+          <ID>DIM Divisiones</ID>
+          <Name>DIM Divisiones</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e5644404-99a4-4dfe-8f07-557f239ddbe5">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_Divisiones</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Conferencias</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="83ec42e8-60ac-48d4-b294-d74211f7ed31">
+          <ID>DIM Conferencias</ID>
+          <Name>DIM Conferencias</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0130b4c4-7c7e-48f2-a216-262eb047518f">
+            <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+            <TableID>dbo_DIM_Conferencias</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

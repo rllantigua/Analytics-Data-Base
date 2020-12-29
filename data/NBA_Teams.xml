@@ -1,0 +1,314 @@
+﻿<?xml version="1.0"?>
+ <NBATeams>  
+   <Row>
+    <Data Type="String">Conferencia</Data>
+    <Data Type="String">División</Data>
+    <Data Type="String">Equipo</Data>
+    <Data Type="String">Ciudad</Data>
+    <Data Type="String">Estado</Data>
+    <Data Type="String">Pabellón</Data>
+    <Data Type="String">Fundado</Data>
+    <Data Type="String">Patrocinio</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Noroeste</Data>
+    <Data Type="String">Denver Nuggets</Data>
+    <Data Type="String">Denver</Data>
+    <Data Type="String">CO</Data>
+    <Data Type="String">Pepsi Center</Data>
+    <Data Type="Number">1967</Data>
+    <Data Type="String">Western Union</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Noroeste</Data>
+    <Data Type="String">Minnesota Timberwolves</Data>
+    <Data Type="String">Minneapolis</Data>
+    <Data Type="String">MN</Data>
+    <Data Type="String">Target Center</Data>
+    <Data Type="Number">1989</Data>
+    <Data Type="String">Fitbit</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Noroeste</Data>
+    <Data Type="String">Oklahoma City Thunder</Data>
+    <Data Type="String">Oklahoma City</Data>
+    <Data Type="String">OK</Data>
+    <Data Type="String">Chesapeake Energy Arena</Data>
+    <Data Type="Number">1967</Data>
+    <Data Type="String">Love's</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Noroeste</Data>
+    <Data Type="String">Portland Trail Blazers</Data>
+    <Data Type="String">Portland</Data>
+    <Data Type="String">OR</Data>
+    <Data Type="String">Moda Center</Data>
+    <Data Type="Number">1970</Data>
+    <Data Type="String">Performance Health</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Noroeste</Data>
+    <Data Type="String">Utah Jazz</Data>
+    <Data Type="String">Salt Lake City</Data>
+    <Data Type="String">UT</Data>
+    <Data Type="String">Vivint Smart Home Arena</Data>
+    <Data Type="Number">1974</Data>
+    <Data Type="String">Qualtrics</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Suroeste</Data>
+    <Data Type="String">Dallas Mavericks</Data>
+    <Data Type="String">Dallas</Data>
+    <Data Type="String">TX</Data>
+    <Data Type="String">American Airlines Center</Data>
+    <Data Type="Number">1980</Data>
+    <Data Type="String">5Miles</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Suroeste</Data>
+    <Data Type="String">Houston Rockets</Data>
+    <Data Type="String">Houston</Data>
+    <Data Type="String">TX</Data>
+    <Data Type="String">Toyota Center</Data>
+    <Data Type="Number">1967</Data>
+    <Data Type="String">ROKiT Phones</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Suroeste</Data>
+    <Data Type="String">Memphis Grizzlies</Data>
+    <Data Type="String">Memphis</Data>
+    <Data Type="String">TN</Data>
+    <Data Type="String">FedExForum</Data>
+    <Data Type="Number">1995</Data>
+    <Data Type="String">FedEx</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Suroeste</Data>
+    <Data Type="String">New Orleans Pelicans</Data>
+    <Data Type="String">Nueva Orleans</Data>
+    <Data Type="String">LA</Data>
+    <Data Type="String">Smoothie King Center</Data>
+    <Data Type="Number">1988</Data>
+    <Data Type="String">Zatarain's</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Suroeste</Data>
+    <Data Type="String">San Antonio Spurs</Data>
+    <Data Type="String">San Antonio</Data>
+    <Data Type="String">TX</Data>
+    <Data Type="String">AT&amp;T Center</Data>
+    <Data Type="Number">1967</Data>
+    <Data Type="String">Frost Bank</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Pacífico</Data>
+    <Data Type="String">Golden State Warriors</Data>
+    <Data Type="String">San Francisco</Data>
+    <Data Type="String">CA</Data>
+    <Data Type="String">Chase Center</Data>
+    <Data Type="Number">1946</Data>
+    <Data Type="String">Rakuten</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Pacífico</Data>
+    <Data Type="String">Los Angeles Clippers</Data>
+    <Data Type="String">Los Ángeles</Data>
+    <Data Type="String">CA</Data>
+    <Data Type="String">Staples Center</Data>
+    <Data Type="Number">1970</Data>
+    <Data Type="String">Bumble</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Pacífico</Data>
+    <Data Type="String">Los Angeles Lakers</Data>
+    <Data Type="String">Los Ángeles</Data>
+    <Data Type="String">CA</Data>
+    <Data Type="String">Staples Center</Data>
+    <Data Type="Number">1946</Data>
+    <Data Type="String">Wish</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Pacífico</Data>
+    <Data Type="String">Phoenix Suns</Data>
+    <Data Type="String">Phoenix</Data>
+    <Data Type="String">AZ</Data>
+    <Data Type="String">Talking Stick Resort Arena</Data>
+    <Data Type="Number">1968</Data>
+    <Data Type="String">PayPal</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Oeste</Data>
+    <Data Type="String">Pacífico</Data>
+    <Data Type="String">Sacramento Kings</Data>
+    <Data Type="String">Sacramento</Data>
+    <Data Type="String">CA</Data>
+    <Data Type="String">Golden 1 Center</Data>
+    <Data Type="Number">1945</Data>
+    <Data Type="String">Blue Diamond Growers</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Atlántico</Data>
+    <Data Type="String">Boston Celtics</Data>
+    <Data Type="String">Boston</Data>
+    <Data Type="String">MA</Data>
+    <Data Type="String">TD Garden</Data>
+    <Data Type="Number">1946</Data>
+    <Data Type="String">General Electric</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Atlántico</Data>
+    <Data Type="String">Brooklyn Nets</Data>
+    <Data Type="String">Nueva York</Data>
+    <Data Type="String">NY</Data>
+    <Data Type="String">Barclays Center</Data>
+    <Data Type="Number">1967</Data>
+    <Data Type="String">Infor</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Atlántico</Data>
+    <Data Type="String">New York Knicks</Data>
+    <Data Type="String">Nueva York</Data>
+    <Data Type="String">NY</Data>
+    <Data Type="String">Madison Square Garden</Data>
+    <Data Type="Number">1946</Data>
+    <Data Type="String">Squarespace</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Atlántico</Data>
+    <Data Type="String">Philadelphia 76ers</Data>
+    <Data Type="String">Filadelfia</Data>
+    <Data Type="String">PA</Data>
+    <Data Type="String">Wells Fargo Center</Data>
+    <Data Type="Number">1939</Data>
+    <Data Type="String">StubHub</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Atlántico</Data>
+    <Data Type="String">Toronto Raptors</Data>
+    <Data Type="String">Toronto</Data>
+    <Data Type="String">ON,&#160;Canadá</Data>
+    <Data Type="String">Scotiabank Arena</Data>
+    <Data Type="Number">1995</Data>
+    <Data Type="String">Sun Life</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Central</Data>
+    <Data Type="String">Chicago Bulls</Data>
+    <Data Type="String">Chicago</Data>
+    <Data Type="String">IL</Data>
+    <Data Type="String">United Center</Data>
+    <Data Type="Number">1966</Data>
+    <Data Type="String">Zenni Optical</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Central</Data>
+    <Data Type="String">Cleveland Cavaliers</Data>
+    <Data Type="String">Cleveland</Data>
+    <Data Type="String">OH</Data>
+    <Data Type="String">Rocket Mortgage FieldHouse</Data>
+    <Data Type="Number">1970</Data>
+    <Data Type="String">Goodyear</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Central</Data>
+    <Data Type="String">Detroit Pistons</Data>
+    <Data Type="String">Detroit</Data>
+    <Data Type="String">MI</Data>
+    <Data Type="String">Little Caesars Arena</Data>
+    <Data Type="Number">1941</Data>
+    <Data Type="String">Flagstar Bank</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Central</Data>
+    <Data Type="String">Indiana Pacers</Data>
+    <Data Type="String">Indianápolis</Data>
+    <Data Type="String">IN</Data>
+    <Data Type="String">Bankers LIfe Fieldhouse</Data>
+    <Data Type="Number">1967</Data>
+    <Data Type="String">Motorola</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Central</Data>
+    <Data Type="String">Milwaukee Bucks</Data>
+    <Data Type="String">Milwaukee</Data>
+    <Data Type="String">WI</Data>
+    <Data Type="String">Fiserv Forum</Data>
+    <Data Type="Number">1968</Data>
+    <Data Type="String">Harley-Davidson</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Sureste</Data>
+    <Data Type="String">Atlanta Hawks</Data>
+    <Data Type="String">Atlanta</Data>
+    <Data Type="String">GA</Data>
+    <Data Type="String">State Farm Arena</Data>
+    <Data Type="Number">1946</Data>
+    <Data Type="String">Sharecare</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Sureste</Data>
+    <Data Type="String">Charlotte Hornets</Data>
+    <Data Type="String">Charlotte</Data>
+    <Data Type="String">NC</Data>
+    <Data Type="String">Spectrum Center</Data>
+    <Data Type="Number">1988</Data>
+    <Data Type="String">LendingTree</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Sureste</Data>
+    <Data Type="String">Miami Heat</Data>
+    <Data Type="String">Miami</Data>
+    <Data Type="String">FL</Data>
+    <Data Type="String">American Airlines Arena</Data>
+    <Data Type="Number">1988</Data>
+    <Data Type="String">Ultimate Software</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Sureste</Data>
+    <Data Type="String">Orlando Magic</Data>
+    <Data Type="String">Orlando</Data>
+    <Data Type="String">FL</Data>
+    <Data Type="String">Amway Center</Data>
+    <Data Type="Number">1989</Data>
+    <Data Type="String">Disney World</Data>
+   </Row>
+   <Row>
+    <Data Type="String">Conferencia Este</Data>
+    <Data Type="String">Sureste</Data>
+    <Data Type="String">Washington Wizards</Data>
+    <Data Type="String">Washington D. C.</Data>
+    <Data Type="String">WA</Data>
+    <Data Type="String">Capital One Arena</Data>
+    <Data Type="Number">1961</Data>
+    <Data Type="String">GEICO</Data>
+   </Row>  
+ </NBATeams>
+

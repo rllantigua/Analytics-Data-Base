@@ -1,0 +1,320 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dd1b079a-d11f-4134-9e03-6eb8c0f36e7d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM Jugadores</ID>
+  <Name>DIM Jugadores</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-482" scrolltop="-4948" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5583" y="16034" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_Jugadores" left="152" top="-4287" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3572" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f40d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_Jugadores" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-482</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4948</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>152</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-4287</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b3f1d4f4-215d-411e-9a99-5005ee4190da">
+    <DataSourceViewID>SEASON_STATS</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="85bb732f-2595-4e76-a510-3ee582187a50">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c362e52c-6fdf-46ee-822a-51a434e6a13a">
+      <ID>Pk Jugador</ID>
+      <Name>Pk Jugador</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="871b93a4-30bc-40ec-934b-89ed32752080">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bdd5dc40-fae5-4720-8845-a836b8491d52">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>pk_jugador</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="15791d21-efd0-422b-b305-2edc20bfa209">
+          <AttributeID>Cod Jugador</AttributeID>
+          <Name>Cod Jugador</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a02bd69b-3751-4734-a4af-a8d7925b999f">
+          <AttributeID>Nombre</AttributeID>
+          <Name>Nombre</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="29f3233b-ca4f-4d47-86a7-cd02ab8dc7ab">
+          <AttributeID>Posicion Juego</AttributeID>
+          <Name>Posicion Juego</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4ee3ef7f-cf5b-4114-86cc-f10d5a7ff014">
+          <AttributeID>Sexo</AttributeID>
+          <Name>Sexo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="62b84459-fa02-49b2-a807-6cbd0134a54a">
+          <AttributeID>Activo</AttributeID>
+          <Name>Activo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2c3b592-d469-4c04-9215-2bd498fe20b0">
+          <AttributeID>Altura</AttributeID>
+          <Name>Altura</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2b9397ba-7959-416a-b782-7fdcb4b2ffb1">
+          <AttributeID>Peso</AttributeID>
+          <Name>Peso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad87da3d-db10-4610-9336-7c113331a41e">
+          <AttributeID>Shoots</AttributeID>
+          <Name>Shoots</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5a440425-cfe6-4e97-bc89-176945e7bac9">
+          <AttributeID>Universidad</AttributeID>
+          <Name>Universidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3e38d80e-2ac9-41ef-b482-764f4057be24">
+          <AttributeID>Ciudad Nacimiento</AttributeID>
+          <Name>Ciudad Nacimiento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea9c8962-afb6-44a7-8025-29a4561ca728">
+          <AttributeID>Liga</AttributeID>
+          <Name>Liga</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e6bedd2e-2a4a-4874-b20f-2944b3a5d938">
+      <ID>Cod Jugador</ID>
+      <Name>Cod Jugador</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8aef5dcc-45a5-446d-972f-bc2b8d16a26d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68199527-792a-4e61-a9eb-72122ceb3b69">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>cod_jugador</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6de2a0ba-d7b4-4f33-a89e-b0e04836a9a8">
+      <ID>Nombre</ID>
+      <Name>Nombre</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9db8680f-483c-4933-ba81-659c9d02b82f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3457dfa-0359-4045-b683-1813221dcf59">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>nombre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a78b10e8-1872-4dda-a511-e500cf074bf5">
+      <ID>Posicion Juego</ID>
+      <Name>Posicion Juego</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d629ca91-c815-4dac-9643-37787faff34b">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="400c76f0-8061-4d96-92d9-397f1f8ae972">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>posicion_juego</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e5f171a6-4451-480c-836a-865affdf09ff">
+      <ID>Sexo</ID>
+      <Name>Sexo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3b5c4e5c-1611-4954-8b37-3084d0cf3dc1">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="636fbc6b-aaa3-4599-b782-d9bd58ef507b">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>sexo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="db42a3d9-c508-45e0-8d81-7200cedfab95">
+      <ID>Activo</ID>
+      <Name>Activo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1dd95b85-15ed-4c3f-989b-c559ad347b0b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="66043823-7647-4765-89fd-2fa04f177e3c">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>activo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d8bec42e-cf78-41b7-9851-4660300cc4d3">
+      <ID>Altura</ID>
+      <Name>Altura</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8aa396e-380c-4ce8-a7fd-15f6decc004b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="339fd51f-7c16-4736-a582-663e7f7475bf">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>altura</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="81cef3b3-39d8-4faf-a0d1-34e28585ac1e">
+      <ID>Peso</ID>
+      <Name>Peso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="584335b5-9f67-4ac4-97ee-59d0d1496bad">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac94aedd-5aa0-444d-aaec-77a6eb0ffc83">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>peso</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5aaf4be5-bca5-42a5-9dbc-e409ff264786">
+      <ID>Shoots</ID>
+      <Name>Shoots</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="55e50351-d2fc-446f-9f0a-ba38ac1318a2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea24f849-7a77-496a-b1ef-7be984caf0fb">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>shoots</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a53ea57c-0d72-4bbd-842d-596f7adf3830">
+      <ID>Universidad</ID>
+      <Name>Universidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9912ba22-8ec3-435a-8509-baaeea665777">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5dd708bd-ddfc-467e-8ca2-1a68a787e173">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>Universidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9253dd1-e3dc-4828-9559-37375eabe26e">
+      <ID>Ciudad Nacimiento</ID>
+      <Name>Ciudad Nacimiento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1f760306-7c76-44b5-be93-da70cb25172f">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ba7e21b-b88f-4aa1-aaba-05a2dac31163">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>ciudad_nacimiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d7f8178e-e1e4-4d32-8291-ddaf31375d50">
+      <ID>Liga</ID>
+      <Name>Liga</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc2569ac-8b43-42d7-8722-000ef1282ff2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ac7c51b-1440-4a8a-81eb-7dd09fa6fb86">
+            <TableID>dbo_DIM_Jugadores</TableID>
+            <ColumnID>liga</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,563 @@
+{
+    "EstadosUnidos": [
+        {
+            "Estado": "Alabama",
+            "Nombre oficial": "State of Alabama",
+            "Superficie (km2)": "135756",
+            "Abrev.": "AL",
+            "Ingreso en la Unión": "14-12-1819",
+            "Población (2010)": "4779736",
+            "Densidad de Población (hab/km2)": "35.21",
+            "Capital": "Montgomery",
+            "Ciudad con mayor Población (2006)": "Birmingham"
+        },
+        {
+            "Estado": "Alaska",
+            "Nombre oficial": "State of Alaska",
+            "Superficie (km2)": "1717854",
+            "Abrev.": "AK",
+            "Ingreso en la Unión": "03-01-1959",
+            "Población (2010)": "710231",
+            "Densidad de Población (hab/km2)": "0.41",
+            "Capital": "Juneau",
+            "Ciudad con mayor Población (2006)": "Anchorage"
+        },
+        {
+            "Estado": "Arizona",
+            "Nombre oficial": "State of Arizona",
+            "Superficie (km2)": "295254",
+            "Abrev.": "AZ",
+            "Ingreso en la Unión": "14-02-1912",
+            "Población (2010)": "6392017",
+            "Densidad de Población (hab/km2)": "21.65",
+            "Capital": "Phoenix",
+            "Ciudad con mayor Población (2006)": "Phoenix"
+        },
+        {
+            "Estado": "Arkansas",
+            "Nombre oficial": "State of Arkansas",
+            "Superficie (km2)": "137732",
+            "Abrev.": "AR",
+            "Ingreso en la Unión": "15-06-1836",
+            "Población (2010)": "2915918",
+            "Densidad de Población (hab/km2)": "21.17",
+            "Capital": "Little Rock",
+            "Ciudad con mayor Población (2006)": "Little Rock"
+        },
+        {
+            "Estado": "California",
+            "Nombre oficial": "State of California",
+            "Superficie (km2)": "423970",
+            "Abrev.": "CA",
+            "Ingreso en la Unión": "09-09-1850",
+            "Población (2010)": "37253956",
+            "Densidad de Población (hab/km2)": "87.87",
+            "Capital": "Sacramento",
+            "Ciudad con mayor Población (2006)": "Los Ángeles"
+        },
+        {
+            "Estado": "North Carolina",
+            "Nombre oficial": "State of North Carolina",
+            "Superficie (km2)": "139389",
+            "Abrev.": "NC",
+            "Ingreso en la Unión": "21-11-1789",
+            "Población (2010)": "9535483",
+            "Densidad de Población (hab/km2)": "68.41",
+            "Capital": "Raleigh",
+            "Ciudad con mayor Población (2006)": "Charlotte"
+        },
+        {
+            "Estado": "South Carolina",
+            "Nombre oficial": "State of South Carolina",
+            "Superficie (km2)": "82932",
+            "Abrev.": "SC",
+            "Ingreso en la Unión": "23-05-1788",
+            "Población (2010)": "4625364",
+            "Densidad de Población (hab/km2)": "55.77",
+            "Capital": "Columbia",
+            "Ciudad con mayor Población (2006)": "Columbia"
+        },
+        {
+            "Estado": "Colorado",
+            "Nombre oficial": "State of Colorado",
+            "Superficie (km2)": "269601",
+            "Abrev.": "CO",
+            "Ingreso en la Unión": "01-08-1876",
+            "Población (2010)": "5029196",
+            "Densidad de Población (hab/km2)": "18.65",
+            "Capital": "Denver",
+            "Ciudad con mayor Población (2006)": "Denver"
+        },
+        {
+            "Estado": "Connecticut",
+            "Nombre oficial": "State of Connecticut",
+            "Superficie (km2)": "14357",
+            "Abrev.": "CT",
+            "Ingreso en la Unión": "09-01-1788",
+            "Población (2010)": "3574097",
+            "Densidad de Población (hab/km2)": "248.94",
+            "Capital": "Hartford",
+            "Ciudad con mayor Población (2006)": "Bridgeport"
+        },
+        {
+            "Estado": "North Dakota",
+            "Nombre oficial": "State of North Dakota",
+            "Superficie (km2)": "183112",
+            "Abrev.": "ND",
+            "Ingreso en la Unión": "02-11-1889",
+            "Población (2010)": "672591",
+            "Densidad de Población (hab/km2)": "3.67",
+            "Capital": "Bismarck",
+            "Ciudad con mayor Población (2006)": "Fargo"
+        },
+        {
+            "Estado": "South Dakota",
+            "Nombre oficial": "State of South Dakota",
+            "Superficie (km2)": "199731",
+            "Abrev.": "SD",
+            "Ingreso en la Unión": "02-11-1889",
+            "Población (2010)": "814180",
+            "Densidad de Población (hab/km2)": "4.08",
+            "Capital": "Pierre",
+            "Ciudad con mayor Población (2006)": "Sioux Falls"
+        },
+        {
+            "Estado": "Delaware",
+            "Nombre oficial": "State of Delaware",
+            "Superficie (km2)": "6447",
+            "Abrev.": "DE",
+            "Ingreso en la Unión": "07-12-1787",
+            "Población (2010)": "897934",
+            "Densidad de Población (hab/km2)": "139.28",
+            "Capital": "Dover",
+            "Ciudad con mayor Población (2006)": "Wilmington"
+        },
+        {
+            "Estado": "Florida",
+            "Nombre oficial": "State of Florida",
+            "Superficie (km2)": "170304",
+            "Abrev.": "FL",
+            "Ingreso en la Unión": "03-03-1845",
+            "Población (2010)": "18801310",
+            "Densidad de Población (hab/km2)": "110.4",
+            "Capital": "Tallahassee",
+            "Ciudad con mayor Población (2006)": "Jacksonville"
+        },
+        {
+            "Estado": "Georgia",
+            "Nombre oficial": "State of Georgia",
+            "Superficie (km2)": "153909",
+            "Abrev.": "GA",
+            "Ingreso en la Unión": "02-01-1788",
+            "Población (2010)": "9687653",
+            "Densidad de Población (hab/km2)": "62.94",
+            "Capital": "Atlanta",
+            "Ciudad con mayor Población (2006)": "Atlanta"
+        },
+        {
+            "Estado": "Hawaii",
+            "Nombre oficial": "State of Hawaii,",
+            "Superficie (km2)": "28311",
+            "Abrev.": "HI",
+            "Ingreso en la Unión": "21-08-1959",
+            "Población (2010)": "1360301",
+            "Densidad de Población (hab/km2)": "48.05",
+            "Capital": "Honolulu",
+            "Ciudad con mayor Población (2006)": "Honolulu"
+        },
+        {
+            "Nombre oficial": "Moku'āina o Hawai'i"
+        },
+        {
+            "Estado": "Idaho",
+            "Nombre oficial": "State of Idaho",
+            "Superficie (km2)": "216446",
+            "Abrev.": "ID",
+            "Ingreso en la Unión": "03-07-1890",
+            "Población (2010)": "1567582",
+            "Densidad de Población (hab/km2)": "7.24",
+            "Capital": "Boise",
+            "Ciudad con mayor Población (2006)": "Boise"
+        },
+        {
+            "Estado": "Illinois",
+            "Nombre oficial": "State of Illinois",
+            "Superficie (km2)": "149998",
+            "Abrev.": "IL",
+            "Ingreso en la Unión": "03-12-1818",
+            "Población (2010)": "12830632",
+            "Densidad de Población (hab/km2)": "85.54",
+            "Capital": "Springfield",
+            "Ciudad con mayor Población (2006)": "Chicago"
+        },
+        {
+            "Estado": "Indiana",
+            "Nombre oficial": "State of Indiana",
+            "Superficie (km2)": "94321",
+            "Abrev.": "IN",
+            "Ingreso en la Unión": "11-12-1816",
+            "Población (2010)": "6483802",
+            "Densidad de Población (hab/km2)": "68.74",
+            "Capital": "Indianápolis",
+            "Ciudad con mayor Población (2006)": "Indianápolis"
+        },
+        {
+            "Estado": "Iowa",
+            "Nombre oficial": "State of Iowa",
+            "Superficie (km2)": "145743",
+            "Abrev.": "IA",
+            "Ingreso en la Unión": "28-12-1846",
+            "Población (2010)": "3046355",
+            "Densidad de Población (hab/km2)": "20.9",
+            "Capital": "Des Moines",
+            "Ciudad con mayor Población (2006)": "Des Moines"
+        },
+        {
+            "Estado": "Kansas",
+            "Nombre oficial": "State of Kansas",
+            "Superficie (km2)": "213096",
+            "Abrev.": "KS",
+            "Ingreso en la Unión": "29-01-1861",
+            "Población (2010)": "2853118",
+            "Densidad de Población (hab/km2)": "13.39",
+            "Capital": "Topeka",
+            "Ciudad con mayor Población (2006)": "Wichita"
+        },
+        {
+            "Estado": "Kentucky",
+            "Nombre oficial": "Commonwealth of Kentucky",
+            "Superficie (km2)": "104659",
+            "Abrev.": "KY",
+            "Ingreso en la Unión": "01-06-1792",
+            "Población (2010)": "4339367",
+            "Densidad de Población (hab/km2)": "41.46",
+            "Capital": "Frankfort",
+            "Ciudad con mayor Población (2006)": "Louisville"
+        },
+        {
+            "Estado": "Louisiana",
+            "Nombre oficial": "State of Louisiana,",
+            "Superficie (km2)": "134264",
+            "Abrev.": "LA",
+            "Ingreso en la Unión": "30-04-1812",
+            "Población (2010)": "4533372",
+            "Densidad de Población (hab/km2)": "33.76",
+            "Capital": "Baton Rouge",
+            "Ciudad con mayor Población (2006)": "Nueva Orleans"
+        },
+        {
+            "Nombre oficial": "État de Louisiane"
+        },
+        {
+            "Estado": "Maine",
+            "Nombre oficial": "State of Maine",
+            "Superficie (km2)": "91646",
+            "Abrev.": "ME",
+            "Ingreso en la Unión": "15-03-1820",
+            "Población (2010)": "1328361",
+            "Densidad de Población (hab/km2)": "14.49",
+            "Capital": "Augusta",
+            "Ciudad con mayor Población (2006)": "Portland"
+        },
+        {
+            "Estado": "Maryland",
+            "Nombre oficial": "State of Maryland",
+            "Superficie (km2)": "32133",
+            "Abrev.": "MD",
+            "Ingreso en la Unión": "28-04-1788",
+            "Población (2010)": "5773552",
+            "Densidad de Población (hab/km2)": "179.68",
+            "Capital": "Annapolis",
+            "Ciudad con mayor Población (2006)": "Baltimore"
+        },
+        {
+            "Estado": "Massachusetts",
+            "Nombre oficial": "Commonwealth of Massachusetts",
+            "Superficie (km2)": "27336",
+            "Abrev.": "MA",
+            "Ingreso en la Unión": "06-02-1788",
+            "Población (2010)": "6547629",
+            "Densidad de Población (hab/km2)": "239.52",
+            "Capital": "Boston",
+            "Ciudad con mayor Población (2006)": "Boston"
+        },
+        {
+            "Estado": "Michigan",
+            "Nombre oficial": "State of Michigan",
+            "Superficie (km2)": "250494",
+            "Abrev.": "MI",
+            "Ingreso en la Unión": "26-01-1837",
+            "Población (2010)": "9883640",
+            "Densidad de Población (hab/km2)": "39.46",
+            "Capital": "Lansing",
+            "Ciudad con mayor Población (2006)": "Detroit"
+        },
+        {
+            "Estado": "Minnesota",
+            "Nombre oficial": "State of Minnesota",
+            "Superficie (km2)": "225171",
+            "Abrev.": "MN",
+            "Ingreso en la Unión": "11-05-1858",
+            "Población (2010)": "5303925",
+            "Densidad de Población (hab/km2)": "23.56",
+            "Capital": "Saint Paul",
+            "Ciudad con mayor Población (2006)": "Mineápolis"
+        },
+        {
+            "Estado": "Mississippi",
+            "Nombre oficial": "State of Mississippi",
+            "Superficie (km2)": "125434",
+            "Abrev.": "MS",
+            "Ingreso en la Unión": "10-12-1817",
+            "Población (2010)": "2967297",
+            "Densidad de Población (hab/km2)": "23.66",
+            "Capital": "Jackson",
+            "Ciudad con mayor Población (2006)": "Jackson"
+        },
+        {
+            "Estado": "Missouri",
+            "Nombre oficial": "State of Missouri",
+            "Superficie (km2)": "180533",
+            "Abrev.": "MO",
+            "Ingreso en la Unión": "10-08-1821",
+            "Población (2010)": "5988927",
+            "Densidad de Población (hab/km2)": "33.17",
+            "Capital": "Jefferson City",
+            "Ciudad con mayor Población (2006)": "Kansas City"
+        },
+        {
+            "Estado": "Montana",
+            "Nombre oficial": "State of Montana",
+            "Superficie (km2)": "380838",
+            "Abrev.": "MT",
+            "Ingreso en la Unión": "08-11-1889",
+            "Población (2010)": "989415",
+            "Densidad de Población (hab/km2)": "2.6",
+            "Capital": "Helena",
+            "Ciudad con mayor Población (2006)": "Billings"
+        },
+        {
+            "Estado": "Nebraska",
+            "Nombre oficial": "State of Nebraska",
+            "Superficie (km2)": "200345",
+            "Abrev.": "NE",
+            "Ingreso en la Unión": "01-03-1867",
+            "Población (2010)": "1826341",
+            "Densidad de Población (hab/km2)": "9.12",
+            "Capital": "Lincoln",
+            "Ciudad con mayor Población (2006)": "Omaha"
+        },
+        {
+            "Estado": "Nevada",
+            "Nombre oficial": "State of Nevada",
+            "Superficie (km2)": "286351",
+            "Abrev.": "NV",
+            "Ingreso en la Unión": "31-10-1864",
+            "Población (2010)": "2700551",
+            "Densidad de Población (hab/km2)": "9.43",
+            "Capital": "Carson City",
+            "Ciudad con mayor Población (2006)": "Las Vegas"
+        },
+        {
+            "Estado": "New Jersey",
+            "Nombre oficial": "State of New Jersey",
+            "Superficie (km2)": "22588",
+            "Abrev.": "NJ",
+            "Ingreso en la Unión": "18-12-1787",
+            "Población (2010)": "8791894",
+            "Densidad de Población (hab/km2)": "389.23",
+            "Capital": "Trenton",
+            "Ciudad con mayor Población (2006)": "Newark"
+        },
+        {
+            "Estado": "New York",
+            "Nombre oficial": "State of New York",
+            "Superficie (km2)": "141299",
+            "Abrev.": "NY",
+            "Ingreso en la Unión": "26-07-1788",
+            "Población (2010)": "19378102",
+            "Densidad de Población (hab/km2)": "137.14",
+            "Capital": "Albany",
+            "Ciudad con mayor Población (2006)": "Nueva York"
+        },
+        {
+            "Estado": "New Hampshire",
+            "Nombre oficial": "State of New Hampshire",
+            "Superficie (km2)": "24216",
+            "Abrev.": "NH",
+            "Ingreso en la Unión": "21-06-1788",
+            "Población (2010)": "1316470",
+            "Densidad de Población (hab/km2)": "54.36",
+            "Capital": "Concord",
+            "Ciudad con mayor Población (2006)": "Mánchester"
+        },
+        {
+            "Estado": "New Mexico",
+            "Nombre oficial": "State of New Mexico,",
+            "Superficie (km2)": "314915",
+            "Abrev.": "NM",
+            "Ingreso en la Unión": "06-01-1912",
+            "Población (2010)": "2059179",
+            "Densidad de Población (hab/km2)": "6.54",
+            "Capital": "Santa Fe",
+            "Ciudad con mayor Población (2006)": "Albuquerque"
+        },
+        {
+            "Nombre oficial": "Estado de Nuevo México"
+        },
+        {
+            "Estado": "Ohio",
+            "Nombre oficial": "State of Ohio",
+            "Superficie (km2)": "116096",
+            "Abrev.": "OH",
+            "Ingreso en la Unión": "01-03-1803",
+            "Población (2010)": "11536504",
+            "Densidad de Población (hab/km2)": "99.37",
+            "Capital": "Columbus",
+            "Ciudad con mayor Población (2006)": "Columbus"
+        },
+        {
+            "Estado": "Oklahoma",
+            "Nombre oficial": "State of Oklahoma",
+            "Superficie (km2)": "181035",
+            "Abrev.": "OK",
+            "Ingreso en la Unión": "16-11-1907",
+            "Población (2010)": "3751351",
+            "Densidad de Población (hab/km2)": "20.72",
+            "Capital": "Oklahoma City",
+            "Ciudad con mayor Población (2006)": "Oklahoma City"
+        },
+        {
+            "Estado": "Oregon",
+            "Nombre oficial": "State of Oregon",
+            "Superficie (km2)": "254805",
+            "Abrev.": "OR",
+            "Ingreso en la Unión": "14-02-1859",
+            "Población (2010)": "3831074",
+            "Densidad de Población (hab/km2)": "15.04",
+            "Capital": "Salem",
+            "Ciudad con mayor Población (2006)": "Portland"
+        },
+        {
+            "Estado": "Pennsylvania",
+            "Nombre oficial": "Commonwealth of Pennsylvania",
+            "Superficie (km2)": "119283",
+            "Abrev.": "PA",
+            "Ingreso en la Unión": "12-12-1787",
+            "Población (2010)": "12702379",
+            "Densidad de Población (hab/km2)": "106.49",
+            "Capital": "Harrisburg",
+            "Ciudad con mayor Población (2006)": "Filadelfia"
+        },
+        {
+            "Estado": "Rhode Island",
+            "Nombre oficial": "State of Rhode Island and Providence Plantations",
+            "Superficie (km2)": "4002",
+            "Abrev.": "RI",
+            "Ingreso en la Unión": "29-05-1790",
+            "Población (2010)": "1052567",
+            "Densidad de Población (hab/km2)": "263.01",
+            "Capital": "Providence",
+            "Ciudad con mayor Población (2006)": "Providence"
+        },
+        {
+            "Estado": "Tennessee",
+            "Nombre oficial": "State of Tennessee",
+            "Superficie (km2)": "109151",
+            "Abrev.": "TN",
+            "Ingreso en la Unión": "01-06-1796",
+            "Población (2010)": "6346105",
+            "Densidad de Población (hab/km2)": "58.14",
+            "Capital": "Nashville",
+            "Ciudad con mayor Población (2006)": "Memphis"
+        },
+        {
+            "Estado": "Texas",
+            "Nombre oficial": "State of Texas",
+            "Superficie (km2)": "695621",
+            "Abrev.": "TX",
+            "Ingreso en la Unión": "29-12-1845",
+            "Población (2010)": "25145561",
+            "Densidad de Población (hab/km2)": "36.15",
+            "Capital": "Austin",
+            "Ciudad con mayor Población (2006)": "Houston"
+        },
+        {
+            "Estado": "Utah",
+            "Nombre oficial": "State of Utah",
+            "Superficie (km2)": "219887",
+            "Abrev.": "UT",
+            "Ingreso en la Unión": "04-01-1896",
+            "Población (2010)": "2763885",
+            "Densidad de Población (hab/km2)": "12.57",
+            "Capital": "Salt Lake City",
+            "Ciudad con mayor Población (2006)": "Salt Lake City"
+        },
+        {
+            "Estado": "Vermont",
+            "Nombre oficial": "State of Vermont",
+            "Superficie (km2)": "24901",
+            "Abrev.": "VT",
+            "Ingreso en la Unión": "04-03-1791",
+            "Población (2010)": "625741",
+            "Densidad de Población (hab/km2)": "25.13",
+            "Capital": "Montpelier",
+            "Ciudad con mayor Población (2006)": "Burlington"
+        },
+        {
+            "Estado": "Virginia",
+            "Nombre oficial": "Commonwealth of Virginia",
+            "Superficie (km2)": "110785",
+            "Abrev.": "VA",
+            "Ingreso en la Unión": "25-06-1788",
+            "Población (2010)": "8001024",
+            "Densidad de Población (hab/km2)": "72.22",
+            "Capital": "Richmond",
+            "Ciudad con mayor Población (2006)": "Virginia Beach"
+        },
+        {
+            "Estado": "West Virginia",
+            "Nombre oficial": "State of West Virginia",
+            "Superficie (km2)": "62755",
+            "Abrev.": "WV",
+            "Ingreso en la Unión": "20-06-1863",
+            "Población (2010)": "1852994",
+            "Densidad de Población (hab/km2)": "29.53",
+            "Capital": "Charleston",
+            "Ciudad con mayor Población (2006)": "Charleston"
+        },
+        {
+            "Estado": "Washington",
+            "Nombre oficial": "State of Washington",
+            "Superficie (km2)": "184665",
+            "Abrev.": "WA",
+            "Ingreso en la Unión": "11-11-1889",
+            "Población (2010)": "6724540",
+            "Densidad de Población (hab/km2)": "36.41",
+            "Capital": "Olympia",
+            "Ciudad con mayor Población (2006)": "Seattle"
+        },
+        {
+            "Estado": "Wisconsin",
+            "Nombre oficial": "State of Wisconsin",
+            "Superficie (km2)": "169639",
+            "Abrev.": "WI",
+            "Ingreso en la Unión": "29-05-1848",
+            "Población (2010)": "5686986",
+            "Densidad de Población (hab/km2)": "33.52",
+            "Capital": "Madison",
+            "Ciudad con mayor Población (2006)": "Milwaukee"
+        },
+        {
+            "Estado": "Wyoming",
+            "Nombre oficial": "State of Wyoming",
+            "Superficie (km2)": "253336",
+            "Abrev.": "WY",
+            "Ingreso en la Unión": "10-07-1890",
+            "Población (2010)": "563626",
+            "Densidad de Población (hab/km2)": "2.22",
+            "Capital": "Cheyenne",
+            "Ciudad con mayor Población (2006)": "Cheyenne"
+        }
+    ]
+}

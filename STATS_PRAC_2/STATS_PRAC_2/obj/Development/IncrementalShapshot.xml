@@ -1,0 +1,166 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DB_rllantigua</Database>
+    <Server>UCS1R1UOCSQL01</Server>
+    <ConnectionString>Data Source=UCS1R1UOCSQL01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gdgewLr0nhheKesLBq7nbLDQ70E=25/12/2020 17:38:0825/12/2020 17:31:35</TimeStamp>
+        <ID>
+          <String>DB_rllantigua</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>9ZNZ+fyqZlFiV9p2tzMhFbDEPf4=25/12/2020 17:31:3225/12/2020 17:31:35</TimeStamp>
+        <ID>
+          <String>default</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>uhPNbEBggoS3ljr1aEtkR4gt+9E=26/12/2020 13:19:3526/12/2020 13:19:34</TimeStamp>
+        <ID>
+          <String>SEASON_STATS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XLL/MyOHVCMsMShGq4X4/gmUUi4=26/12/2020 16:04:4426/12/2020 16:04:44</TimeStamp>
+        <ID>
+          <String>FREE_THROWS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WJ6Ll2APmptgGifGAeQ2sVEDVWg=25/12/2020 17:31:3325/12/2020 17:31:35</TimeStamp>
+        <ID>
+          <String>TABLES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>e+PVSTCj6kxe9XQMV5fyjozyWVA=26/12/2020 16:21:3626/12/2020 13:19:53</TimeStamp>
+        <ID>
+          <String>DIM Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pwqEGtyLfnoww6ijfdvuzdxgxVc=26/12/2020 23:45:2726/12/2020 13:19:53</TimeStamp>
+        <ID>
+          <String>DIM Jugadores</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k86YuaOqKU/wdfCL9kR2o1UA7bg=26/12/2020 16:17:5826/12/2020 16:05:01</TimeStamp>
+        <ID>
+          <String>DIM Minutos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>e9CRqrqD/0qwYKbbAKTq3U298L4=26/12/2020 18:00:4826/12/2020 16:05:01</TimeStamp>
+        <ID>
+          <String>DIM Partidos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HHuuLBQldudQQ/hjM+ipgGm9f/w=27/12/2020 0:15:1826/12/2020 16:05:01</TimeStamp>
+        <ID>
+          <String>DIM Jugadas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XCy0KufolHrrSE0plPn9L0W8+3Y=26/12/2020 22:18:4926/12/2020 16:15:46</TimeStamp>
+        <ID>
+          <String>DIM Equipos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BZ00irWYe+DnWGDmmtLLtqOvmN4=26/12/2020 16:22:4726/12/2020 16:15:46</TimeStamp>
+        <ID>
+          <String>DIM Posiciones Juego</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qAm+hyRGrHLtC5cJRp1IH3jc+Lw=26/12/2020 16:19:1026/12/2020 16:15:46</TimeStamp>
+        <ID>
+          <String>DIM Divisiones</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SLWu3t96/vtK14AZLJrIcbddv6A=26/12/2020 16:19:1026/12/2020 16:15:46</TimeStamp>
+        <ID>
+          <String>DIM Estados EEUU</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZmyoNldjyI7VCy4TptGEHKvenLY=26/12/2020 17:57:5526/12/2020 16:15:46</TimeStamp>
+        <ID>
+          <String>DIM Conferencias</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>eJNT26ihBuwBJGo5MhtgajgZjes=25/12/2020 17:41:1325/12/2020 17:31:35ZLKezdRdkQ4nLT1MM2II21+MTtg=25/12/2020 17:41:1325/12/2020 17:31:35</TimeStamp>
+        <ID>
+          <String>default</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>IWtC88mKCZbkCAdXquMsbHcqfdA=27/12/2020 15:54:1026/12/2020 16:05:01SDG9VkVyhjCKvkDz9FVZgTcFwDo=26/12/2020 16:05:0126/12/2020 16:05:01</TimeStamp>
+        <ID>
+          <String>FREE_THROWS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>g0DUsvxx3LyN2puyWGP43ZLFs+I=26/12/2020 23:45:2726/12/2020 16:15:45CzZfi4FNlfZuMyy95Ok6JqistM8=26/12/2020 16:15:4626/12/2020 16:15:45</TimeStamp>
+        <ID>
+          <String>SEASON_STATS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>ywlFXo1N0TO2T8znPiuJf7fqVcY=25/12/2020 17:31:3325/12/2020 17:31:35</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>jwTtJQTEr4lzXNXCJtfuBi0rkvc=25/12/2020 17:31:3525/12/2020 17:31:33</TimeStamp>
+      <ID>
+        <String>DB_rllantigua</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-12-27T14:54:15.37Z</LastDeployed>
+</DeploymentSnapshot>

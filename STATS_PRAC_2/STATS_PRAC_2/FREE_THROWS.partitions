@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a0363285-5b9e-4072-bd75-875e15114e2c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FREE_THROWS</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>FACT FREE THROWS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a721d559-6bde-4a5f-ae48-95d47628cca8">
+          <ID>FACT FREE THROWS</ID>
+          <Name>FACT FREE THROWS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c4ac5cc9-3610-4c95-bc7f-c5768f843405">
+            <DataSourceViewID>FREE_THROWS</DataSourceViewID>
+            <TableID>dbo_FACT_FREE_THROWS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Jugadas</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="348fe8fa-03cb-404f-964f-2e10f77fc489">
+          <ID>DIM Jugadas</ID>
+          <Name>DIM Jugadas</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="96ad9163-de89-4612-b102-0123df8e58f1">
+            <DataSourceViewID>FREE_THROWS</DataSourceViewID>
+            <TableID>dbo_DIM_Jugadas</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Minutos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="12e6c2e7-044a-42c3-a39c-44852324712b">
+          <ID>DIM Minutos</ID>
+          <Name>DIM Minutos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ac8411d8-4f7b-4a87-9ac5-799fa41d20f5">
+            <DataSourceViewID>FREE_THROWS</DataSourceViewID>
+            <TableID>dbo_DIM_Minutos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Jugadores</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d361535f-11fa-4808-9798-20cb4009b66d">
+          <ID>DIM Jugadores</ID>
+          <Name>DIM Jugadores</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="873235d0-d9ab-464a-9ab0-d3b5fd50accd">
+            <DataSourceViewID>FREE_THROWS</DataSourceViewID>
+            <TableID>dbo_DIM_Jugadores</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Partidos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e17d5970-8478-4114-a4a4-264c2090a3f2">
+          <ID>DIM Partidos</ID>
+          <Name>DIM Partidos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="544d1791-4a06-43f5-bccd-bf6027d3dd27">
+            <DataSourceViewID>FREE_THROWS</DataSourceViewID>
+            <TableID>dbo_DIM_Partidos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM Tiempo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4935b344-b97c-45cc-8b93-7f9a16172d92">
+          <ID>DIM Tiempo</ID>
+          <Name>DIM Tiempo</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="29307bda-fe03-49f9-86c5-c244ed5e386e">
+            <DataSourceViewID>FREE_THROWS</DataSourceViewID>
+            <TableID>dbo_DIM_Tiempo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
